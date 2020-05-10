@@ -170,7 +170,7 @@ class ArticlesSpider(scrapy.Spider):
         loader.add_value('team', response.url.split("/")[3])
         loader.add_value('url', response.url)
         loader.add_xpath('date', '//div[@class="author-block__post-date"]/text()')
-        loader.add_css('title', '.h1::text')
+        loader.add_css('title', 'title::text')
         loader.add_xpath('tags', '//*[@class="tag__link"]/text()')
         loader.add_css('article', 'p')
 

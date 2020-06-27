@@ -6,7 +6,7 @@ This repository holds all the necassary components to run a Scrapy with Selenium
 
 The program can be run by running the following in the command line:
 
-```
+```bash
 cd NBA_News
 python release_spiders.py
 ```

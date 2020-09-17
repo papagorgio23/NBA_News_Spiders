@@ -10,3 +10,7 @@ The program can be run by running the following in the command line:
 cd NBA_News
 python release_spiders.py
 ```
+
+### Academic Papers
+
+This repository also contains academic papers explaining the purpose of the Web Crawler, how it works, and how it is used.
